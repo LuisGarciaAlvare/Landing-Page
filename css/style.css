@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@500&display=swap');
 
 body{
   margin: 0;
@@ -38,6 +39,7 @@ a {
     width: 622px;
     height: 1024px;
    border: 1px solid black;
+   text-align: center;
 }
 
 header{
@@ -58,9 +60,10 @@ height: 217px;
 
   
 z-index: 5;
-margin-left: 1045px;
+margin-left: 250px;
 margin-top: 57px;
 justify-content: space-between;
+
 }
 
 .text1 > div{
@@ -123,4 +126,65 @@ line-height: 23px;
 color: #ffffff;
 
 text-shadow: 0px 4px 4px rgba(63, 76, 139, 0.2);
+}
+
+.barras{
+  width: 32px;
+  height: 38px;
+  background-image: url(/assets/imgs/align-justify.png);
+  margin-top: 43px;
+  margin-left: 48px;
+
+}
+
+.sneaker{
+  width: 480px;
+  margin-top: 198px;
+  margin: 198px 0 40px;
+}
+
+.world{
+  width: 100%;
+  text-align: center;
+
+}
+.world h1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 90px;
+  line-height: 18px;
+letter-spacing: 0.11em;
+text-align: center;
+}
+.loren{
+  width: 350px;
+  margin-left: 137px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+.button{
+  width: 167px;
+  height: 57px;
+  background-color: white;
+}
+
+.iconos{
+  width: 176px;
+  height: 32px;
+  justify-content: space-between;
+  margin-top: 222px;
+  margin-left: 220px;
+}
+
+.acer{
+  z-index: 5;
+  margin-top: 32px;
+  margin-left: 611px;
 }
