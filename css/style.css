@@ -24,7 +24,7 @@ a {
 }
 .background{
   z-index: 5;
- background-image: url(/assets/imgs/fondo-zapatos.jpg);
+ background-image: url('assets/imgs/fondo-zapatos.jpg');
  background-size: cover;
     width: 1440px;
     height: 807px;
@@ -131,7 +131,7 @@ text-shadow: 0px 4px 4px rgba(63, 76, 139, 0.2);
 .barras{
   width: 32px;
   height: 38px;
-  background-image: url(/assets/imgs/align-justify.png);
+  background-image: url('assets/imgs/align-justify.png');
   margin-top: 43px;
   margin-left: 48px;
 
